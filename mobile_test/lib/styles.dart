@@ -17,8 +17,19 @@ abstract class Styles {
   // text style for login/signup buttons 
   static const buttonTextStyle = TextStyle(
     fontSize: 24,
+    fontFamily: 'Mulish',
     fontWeight: FontWeight.bold,
+    color: Colors.black,
   );
+
+  // text style for text field hints
+  static const fieldTextStyle = TextStyle(
+    fontSize: 30,
+    fontFamily: 'Mulish',
+    fontWeight: FontWeight.bold,
+    color: Colors.black54,
+  );
+
 
   // shape for login/signup buttons
   static final buttonShape = RoundedRectangleBorder(
